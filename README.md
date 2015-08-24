@@ -3,7 +3,7 @@
 This page contains references to paper and books about building
 highly available systems.
 
-## Why Do Computers Stop and What Can Be Done About It?
+### Why Do Computers Stop and What Can Be Done About It?
 Jim Gray,
 Tandem Computers,
 Technical Report 85.7
@@ -32,7 +32,7 @@ strange hardware conditions (rare or transient device fault), limit conditions
 
 * Dealing with system configuration, operations, and maintenance remains an unsolved problem. p32
 
-## Making Reliable Distributed Systems In The Presence Of Software Errors
+### Making Reliable Distributed Systems In The Presence Of Software Errors
 Joe Armstrong,
 PhD Dissertation,
 Royal Institute of Technology,
@@ -43,19 +43,24 @@ Decmeber, 2003
 
 Describes both Erlang and principles for using it to build reliable systems.
 
-## Release It!: Design and Deploy Production-Ready Software
+### Release It!: Design and Deploy Production-Ready Software
 Michael Nygard,
 Pragmatic Bookshelf,
 April, 2007
 
-## On Designing and Deploying Internet-Scale Services
+### On Designing and Deploying Internet-Scale Services
 James Hamilton,
 Proceedings of the 21st Large Installation System
 Administration Conference (LISA '07),
 November 11-16, 2007
 [html][hamilton07]
 
-## Web Operations: Keeping the Data on Time
+Even though this paper was written before cloud computing became widely adopted
+(the word "cloud" does not appear once), it feels as if it could have been
+written today. The only other indications of it being a little are a discussion of hardware, and a
+proposed deployment cycle of three months.
+
+### Web Operations: Keeping the Data on Time
 John Allspaw & Jesse Robins, eds.
 O'Reilly Media,
 July 2010
@@ -63,7 +68,7 @@ July 2010
 A collection of essays.
 
 
-## Simple Testing Can Prevent Most Critical Failures: An Analysis of Production Failures in Distributed Data-Intensive Systems
+### Simple Testing Can Prevent Most Critical Failures: An Analysis of Production Failures in Distributed Data-Intensive Systems
 
 Ding Yuan, Yu Luo, Xin Zhuang, Guilherme Renna Rodrigues, Xu Zhao, Yongle
 Zhang, Pranay U. Jain, and Michael Stumm
