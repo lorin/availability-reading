@@ -9,6 +9,7 @@ Tandem Computers,
 Technical Report 85.7
 June 1985,
 PN87614
+
 [pdf][gray85]
 
 Describes strategies for achieving good reliability and availability in the
@@ -38,6 +39,7 @@ PhD Dissertation,
 Royal Institute of Technology,
 Stockholm, Sweden
 Decmeber, 2003
+
 [pdf][armstrong03]
 
 
@@ -53,6 +55,7 @@ James Hamilton,
 Proceedings of the 21st Large Installation System
 Administration Conference (LISA '07),
 November 11-16, 2007
+
 [html][hamilton07]
 
 Even though this paper was written before cloud computing became widely adopted
