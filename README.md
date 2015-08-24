@@ -63,7 +63,21 @@ July 2010
 A collection of essays.
 
 
+## Simple Testing Can Prevent Most Critical Failures: An Analysis of Production Failures in Distributed Data-Intensive Systems
+
+Ding Yuan, Yu Luo, Xin Zhuang, Guilherme Renna Rodrigues, Xu Zhao, Yongle
+Zhang, Pranay U. Jain, and Michael Stumm
+Proceedings of the 11th USENIX Symposium on Operating  Systems Design and Implementation (OSDI '14)
+Oct. 2014.
+
+[pdf][yuan14]
+
+An empirical study that explores the reasons why distributed systems
+fail in production by analyzing the root causes of around 200 confirmed system
+failures. You can read [my review](http://neverworkintheory.org/2014/10/08/simple-testing-can-prevent-most-critical-failures.html) of this paper at *It Will Never Work In Theory*.
+
 
 [gray85]: http://www.hpl.hp.com/techreports/tandem/TR-85.7.pdf
 [armstrong03]: http://www.erlang.org/download/armstrong_thesis_2003.pdf
 [hamilton07]: https://www.usenix.org/legacy/event/lisa07/tech/full_papers/hamilton/hamilton_html/
+[yuan14]: https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf
