@@ -1,6 +1,9 @@
 # Availability reading list
 
-Why Do Computers Stop and What Can Be Done About It?
+This page contains references to paper and books about building
+highly available systems.
+
+## Why Do Computers Stop and What Can Be Done About It?
 Jim Gray,
 Tandem Computers,
 Technical Report 85.7
@@ -8,7 +11,10 @@ June 1985,
 PN87614
 [pdf][gray85]
 
-Making Reliable Distributed Systems In The Presence Of Software Errors,
+Describes strategies for achieving good reliability and availability in the
+presence of faults.
+
+## Making Reliable Distributed Systems In The Presence Of Software Errors
 Joe Armstrong,
 PhD Dissertation,
 Royal Institute of Technology,
@@ -17,22 +23,26 @@ Decmeber, 2003
 [pdf][armstrong03]
 
 
-Release It!: Design and Deploy Production-Ready Software,
+Describes both Erlang and principles for using it to build reliable systems.
+
+## Release It!: Design and Deploy Production-Ready Software
 Michael Nygard,
 Pragmatic Bookshelf,
 April, 2007
 
-On Designing and Deploying Internet-Scale Services,
+## On Designing and Deploying Internet-Scale Services
 James Hamilton,
 Proceedings of the 21st Large Installation System
 Administration Conference (LISA '07),
 November 11-16, 2007
 [html][hamilton07]
 
-Web Operations: Keeping the Data on Time,
+## Web Operations: Keeping the Data on Time
 John Allspaw & Jesse Robins, eds.
 O'Reilly Media,
 July 2010
+
+A collection of essays.
 
 
 
