@@ -14,6 +14,24 @@ PN87614
 Describes strategies for achieving good reliability and availability in the
 presence of faults.
 
+Notable quoets:
+
+* System administration, which includes operator actions, system configuration, and system maintenace was the main source of failures -- 42%. p8
+
+* The top priority for improving system availability is to reduce administrative mistakes by making self-configured systems with minal maintenance and minimal operator interaction. p12
+
+* A way to improve aailability is to install proven hardware and software, and then leave it alone. p13
+
+* If you consider an industrial sofwtare system which has gone through structured
+design, design reviews, quality assurance, alpha test, beta test, and months or
+years of production, then most of the "hard" software bugs, ones that always
+fail on retry, are gone. *The residual bugs are rare cases, typically related to
+strange hardware conditions (rare or transient device fault), limit conditions
+(out of storage, counter overflow, lost interrupt, etc,, or race conditions
+(forgetting to request a semaphore)*.  p17-18 (emphasis mine).
+
+* Dealing with system configuration, operations, and maintenance remains an unsolved problem. p32
+
 ## Making Reliable Distributed Systems In The Presence Of Software Errors
 Joe Armstrong,
 PhD Dissertation,
