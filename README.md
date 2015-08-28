@@ -15,7 +15,7 @@ PN87614
 Describes strategies for achieving good reliability and availability in the
 presence of faults.
 
-Notable quoets:
+Notable quotes:
 
 * System administration, which includes operator actions, system configuration, and system maintenace was the main source of failures -- 42%. p8
 
