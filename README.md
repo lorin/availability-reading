@@ -3,6 +3,15 @@
 This page contains references to paper and books about building
 highly available systems.
 
+The focus here is on practical information for building systems. It doesn't
+cover theoretical topics such as distributed algorithms, nor does it cover
+distributed databases, so don't expect to see the Paxos or Dynamo papers here.
+
+I also maintain a [systems and failure reading list][1], which
+covers systems and failure at a higher-level.
+
+[1]: https://github.com/lorin/systems-reading
+
 ### Why Do Computers Stop and What Can Be Done About It?
 Jim Gray,
 Tandem Computers,
