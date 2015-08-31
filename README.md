@@ -30,7 +30,7 @@ Notable quotes:
 
 * The top priority for improving system availability is to reduce administrative mistakes by making self-configured systems with minal maintenance and minimal operator interaction. p12
 
-* A way to improve aailability is to install proven hardware and software, and then leave it alone. p13
+* A way to improve availability is to install proven hardware and software, and then leave it alone. p13
 
 * If you consider an industrial sofwtare system which has gone through structured
 design, design reviews, quality assurance, alpha test, beta test, and months or
