@@ -28,7 +28,7 @@ Notable quotes:
 
 * System administration, which includes operator actions, system configuration, and system maintenace was the main source of failures -- 42%. p8
 
-* The top priority for improving system availability is to reduce administrative mistakes by making self-configured systems with minal maintenance and minimal operator interaction. p12
+* The top priority for improving system availability is to reduce administrative mistakes by making self-configured systems with minimal maintenance and minimal operator interaction. p12
 
 * A way to improve availability is to install proven hardware and software, and then leave it alone. p13
 
