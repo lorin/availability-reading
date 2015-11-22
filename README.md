@@ -10,7 +10,13 @@ distributed databases, so don't expect to see the Paxos or Dynamo papers here.
 I also maintain a [systems and failure reading list][1], which
 covers systems and failure at a higher-level.
 
+Mark McGranaghan maintains a [services engineering reading list][2] with some
+significant overlap.
+
+
+
 [1]: https://github.com/lorin/systems-reading
+[2]: https://github.com/mmcgrana/services-engineering
 
 ### Why Do Computers Stop and What Can Be Done About It?
 Jim Gray,
@@ -69,8 +75,8 @@ November 11-16, 2007
 
 Even though this paper was written before cloud computing became widely adopted
 (the word "cloud" does not appear once), it feels as if it could have been
-written today. The only other indications of it being a little are a discussion of hardware, and a
-proposed deployment cycle of three months.
+written today. The only other indications of it being a little are a discussion
+of hardware, and a proposed deployment cycle of three months.
 
 ### Web Operations: Keeping the Data on Time
 John Allspaw & Jesse Robins, eds.
