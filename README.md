@@ -114,7 +114,7 @@ that is well worth your time.
 
 ### Fault Injection in Production: Making the case for resiliency testing
 John Allspaw,
-ACM Queue, Volume 10, issue 8
+ACM Queue, Volume 10, issue 8,
 August 24, 2012
 
 [html][allspaw12]
@@ -125,6 +125,18 @@ fault injection in the context of GameDay exercises at Etsy. Although the essay
 does not mention Chaos Monkey, it provides a strong motivation for tools similar
 to Chaos Monkey.
 
+### The Error Model
+Joe Duffy,
+Joe Duffy's Blog,
+February 7, 2016
+
+[html][duffy16]
+
+Duffy talks about the error model that they used in the
+[Midori](http://joeduffyblog.com/2015/11/03/blogging-about-midori/) language.
+Interesting content about how to handle errors in code.
+
+
 
 [gray85]: http://www.hpl.hp.com/techreports/tandem/TR-85.7.pdf
 [armstrong03]: http://www.erlang.org/download/armstrong_thesis_2003.pdf
@@ -133,3 +145,4 @@ to Chaos Monkey.
 [hodges13]: http://www.somethingsimilar.com/2013/01/14/notes-on-distributed-systems-for-young-bloods/
 [hodges13-talk]: https://www.youtube.com/watch?v=BKqgGpAOv1w
 [allspaw12]: http://queue.acm.org/detail.cfm?id=2353017
+[duffy16]: http://joeduffyblog.com/2016/02/07/the-error-model/
