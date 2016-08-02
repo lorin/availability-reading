@@ -136,7 +136,53 @@ Duffy talks about the error model that they used in the
 [Midori](http://joeduffyblog.com/2015/11/03/blogging-about-midori/) language.
 Interesting content about how to handle errors in code.
 
+### A New Accident Model for Engineering Safer Systems
+Nancy Leveson,
+Safety Science, Vol. 42, No. 4, April 2004
 
+[pdf][leveson04]
+
+Leveson proposes a model of accidents called STAMP: systems-theoretic accident
+model and processes. STAMP focuses on identifying safety constraints that were
+violated and determining why the controls were inadequate. 
+
+While this paper is focused on software safety, it is still relevant for
+availabilty, since an outage can be viewed as an accident.
+
+### Why do Internet services fail, and what can be done about it?
+David Oppenheimer, Archana Ganapathi, and David A. Patterson,
+4th Usenix Symposium on Internet Technologies and Systems (USITS ‘03), 2003.
+
+[pdf][oppenheimer03]
+
+Oppenheimer et al. did a case study of three Internet services to determine
+common causes of failures. Findings incldue:
+
+* Front-end machines are a significant source of failure, largely due to operator
+  configuration errors.
+* Operator error is the leading cause of service failure in two of the three services.
+* Operator error was generally due to misconfiguration rather than procedural
+  errors.
+* Operator error generally arose when operators were making changes to the system.
+* Networking problems were a significant cause of failure. 
+
+Networking problems are difficult to mask because:
+
+* networks are often a single point of failure
+* network failure modes tend to be complex
+
+Proposed techniques for avoiding or mitigating failures, in decreasing order of
+impact:
+
+ * Online correctness testing
+ * Thoroughly expose and monitor for software and hardware failures
+ * Redundancy
+ * Config. checking
+ * Online fault/load injection
+ * Component isolation
+ * Pre-deployment fault/load injection
+ * Proactive restart
+ * Pre-deployment correctness testing
 
 [gray85]: http://www.hpl.hp.com/techreports/tandem/TR-85.7.pdf
 [armstrong03]: http://www.erlang.org/download/armstrong_thesis_2003.pdf
@@ -146,3 +192,5 @@ Interesting content about how to handle errors in code.
 [hodges13-talk]: https://www.youtube.com/watch?v=BKqgGpAOv1w
 [allspaw12]: http://queue.acm.org/detail.cfm?id=2353017
 [duffy16]: http://joeduffyblog.com/2016/02/07/the-error-model/
+[leveson04]: http://sunnyday.mit.edu/accidents/safetyscience-single.pdf
+[oppenheimer03]: http://roc.cs.berkeley.edu/papers/usits03.pdf
