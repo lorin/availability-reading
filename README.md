@@ -144,7 +144,7 @@ Safety Science, Vol. 42, No. 4, April 2004
 
 Leveson proposes a model of accidents called STAMP: systems-theoretic accident
 model and processes. STAMP focuses on identifying safety constraints that were
-violated and determining why the controls were inadequate. 
+violated and determining why the controls were inadequate.
 
 While this paper is focused on software safety, it is still relevant for
 availabilty, since an outage can be viewed as an accident.
@@ -164,7 +164,7 @@ common causes of failures. Findings incldue:
 * Operator error was generally due to misconfiguration rather than procedural
   errors.
 * Operator error generally arose when operators were making changes to the system.
-* Networking problems were a significant cause of failure. 
+* Networking problems were a significant cause of failure.
 
 Networking problems are difficult to mask because:
 
@@ -184,6 +184,64 @@ impact:
  * Proactive restart
  * Pre-deployment correctness testing
 
+### I want to believe: some myths about the management of industry safety
+Denis Besnard, Erik Hollnagel,
+Cognition, Technology and Work, Springer Verlag, 2014, 16 (1)
+
+The authors discuss five myths about safety and propose revisions.
+
+#### Human error
+
+Myth: Human error is the largest single cause of accidents and incidents
+
+Revision: 'Human error' is an artifact of a traditional engineering view, which
+treats humans as if they were (falliable) machines and overlooks how performance
+adjustments are used to match activities to the working conditions.
+
+#### Procedure compliance
+
+Myth: Systems will be safe if people comply with the proedures
+they have been given.
+
+Revision: Actual working situations usually differ from what the procedures
+assume and strict compliance may be detrimental to both safety and efficinecy.
+Procedures should be used carefully and intelligently.
+
+#### Protection and safety
+
+Myth: Safety can be improved by barriers and protection;
+increasing the layers of protection leads to higher safety.
+
+Revision: Technology is not value netural. Additional prteoction changes
+behaviour so that the intended safety improvements might not be obtained.
+
+#### Mishaps and root causes
+
+Myth: Root cause analysis can identify why mishaps happen
+in complex socio-technical systems.
+
+Revision: Human performance cannot be described as if it was bimodal. In
+socio-technical systems, things that go wrong happen in the same way as things
+that go right.
+
+#### Accident investigation
+
+Myth: Accident investigation is the logical and rational
+identification of causes based on facts.
+
+Revision: Accident investigation is a social process, where causes aer
+constructed rather than found.
+
+#### Safety first
+
+Myth: Safety always has the highest priority and will never be
+compromised.
+
+Revision: Safety will be as high as affordable — from a financial and ethical
+perspective.
+
+[pdf][besnard14]
+
 [gray85]: http://www.hpl.hp.com/techreports/tandem/TR-85.7.pdf
 [armstrong03]: http://www.erlang.org/download/armstrong_thesis_2003.pdf
 [hamilton07]: https://www.usenix.org/legacy/event/lisa07/tech/full_papers/hamilton/hamilton_html/
@@ -194,3 +252,4 @@ impact:
 [duffy16]: http://joeduffyblog.com/2016/02/07/the-error-model/
 [leveson04]: http://sunnyday.mit.edu/accidents/safetyscience-single.pdf
 [oppenheimer03]: http://roc.cs.berkeley.edu/papers/usits03.pdf
+[besnard14]: https://hal-mines-paristech.archives-ouvertes.fr/hal-00720270
