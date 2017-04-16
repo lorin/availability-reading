@@ -188,6 +188,8 @@ impact:
 Denis Besnard, Erik Hollnagel,
 Cognition, Technology and Work, Springer Verlag, 2014, 16 (1)
 
+[pdf][besnard14]
+
 The authors discuss five myths about safety and propose revisions.
 
 #### Human error
@@ -240,7 +242,6 @@ compromised.
 Revision: Safety will be as high as affordable — from a financial and ethical
 perspective.
 
-[pdf][besnard14]
 
 [gray85]: http://www.hpl.hp.com/techreports/tandem/TR-85.7.pdf
 [armstrong03]: http://www.erlang.org/download/armstrong_thesis_2003.pdf
