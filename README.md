@@ -242,6 +242,69 @@ compromised.
 Revision: Safety will be as high as affordable — from a financial and ethical
 perspective.
 
+## Hints for Computer System Design
+Butler W. Lampson,
+ACM SIGOPS Operating Systems Review,
+Volume 17 Issue 5, October 1983
+
+[pdf][lampson83]
+
+General advice on building system, based on the author's experiences building
+several systems at Xerox PARC. It's all still relevant, but here are some
+quotes I found particularly notable:
+
+Defining interfaces is the most important part of system design.
+
+Interface design must satisfy three conflicting requirements:
+
+1. An interface should be simple
+2. An interface should be complete
+3. An interface sould admit a sufficiently small and fast implementation
+
+Do one thing at a time, and do it well.
+
+Don't generalize; generalizations are generally wrong.
+
+Neither abstraction nor simplicity is a substitute for getting it right.
+
+The purpose of abstractions is to conceal *undesirable* properties; desirable
+ones should not be hidden.
+
+*Use procedure arguments* to provide flexibility in an interface (support
+functions as arguments).
+
+Keep basic interfaces stable.
+
+Even when an implementation is successful, it pays to revisit old decisions as
+the system evolves; in particular, optimizations for particular properties of
+the load or the environment (memory size, for example) often come to be far
+from optimal.
+
+*Use a good idea again* instead of generalizing it.
+
+Handle normal and worst cases separately as a rule.
+
+In allocating resources, strive to avoid disaster rather than to attain an
+optimum.
+
+We learned that the only important thing is to avoid thrashing.
+
+The most successful schemes give a fixed share of the cycles to each job and
+don't allocate more than 100%.
+
+Shed load to control demand, rather than allowing the system to become overloaded
+
+End-to-end: Error recovery at the application level is absolutely necessary for a reliable
+system, and any other error detection or recovery is not logically necessary
+but is strictly for performance.
+
+Two problems with the end-to-end strategy:
+
+1. It requires a cheap test for success
+2. It can lead to working sytems with severe performance defects that may not
+   appear until the system behcomes operational and is placed under heavy load.
+
+Log updates to record the truth about the state of an object.
 
 [gray85]: http://www.hpl.hp.com/techreports/tandem/TR-85.7.pdf
 [armstrong03]: http://www.erlang.org/download/armstrong_thesis_2003.pdf
@@ -254,3 +317,4 @@ perspective.
 [leveson04]: http://sunnyday.mit.edu/accidents/safetyscience-single.pdf
 [oppenheimer03]: http://roc.cs.berkeley.edu/papers/usits03.pdf
 [besnard14]: https://hal-mines-paristech.archives-ouvertes.fr/hal-00720270
+[lampson83]: https://www.microsoft.com/en-us/research/publication/hints-for-computer-system-design/
