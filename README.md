@@ -306,6 +306,23 @@ Two problems with the end-to-end strategy:
 
 Log updates to record the truth about the state of an object.
 
+# End-to-end Arguments in Systems Design
+J.H. Saltzer, D.P. Reed and D.D. Clark,
+ACM Transactions on Computer Systems (TOCS),
+Volume 2 Issue 4, Nov. 1984 
+
+[pdf][saltzer84]
+
+Proposes that functionality guarantees must be implemented on an end-to-end
+basis, rather than by simply building on top of some infrastructure that
+provides guarantees.
+
+The example given in the paper is that if you want to ensure that file transfer
+is reliable, you have to do an end-to-end check to verify that the transfer
+succeeded, because there are failure points other than at the levels of
+infrastructure you build on that can provide guarantees.
+
+
 [gray85]: http://www.hpl.hp.com/techreports/tandem/TR-85.7.pdf
 [armstrong03]: http://www.erlang.org/download/armstrong_thesis_2003.pdf
 [hamilton07]: https://www.usenix.org/legacy/event/lisa07/tech/full_papers/hamilton/hamilton_html/
@@ -318,3 +335,4 @@ Log updates to record the truth about the state of an object.
 [oppenheimer03]: http://roc.cs.berkeley.edu/papers/usits03.pdf
 [besnard14]: https://hal-mines-paristech.archives-ouvertes.fr/hal-00720270
 [lampson83]: https://www.microsoft.com/en-us/research/publication/hints-for-computer-system-design/
+[saltzer84]: http://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf
